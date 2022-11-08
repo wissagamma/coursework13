@@ -1,0 +1,123 @@
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #8eb5e9;
+  width: 100%;
+  height: 65px;
+  display: flex;
+}
+.logo {
+  padding: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 150%;
+}
+
+.container {
+  background-image: url(image/baner.jpg);
+  height: 450px;
+  background-size: cover;
+}
+.box {
+  background-color: rgba(255, 255, 255, 0.514);
+  border-radius: 50px;
+  height: 100%;
+  width: 90%;
+  margin-left: 5%;
+}
+.box-logo img {
+  height: 13%;
+  width: 13%;
+  margin: 2% 44%;
+}
+.box-logo P {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 300%;
+  margin-top: -20px;
+}
+.box-logo button {
+  height: 35px;
+  width: 200px;
+  margin: -2% 42%;
+  background-color: #8eb5e9;
+  border: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* STYLE FROM */
+.daftar-login {
+  display: flex;
+}
+form {
+  padding: 1em;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  margin-top: 2rem;
+  width: 600px;
+  margin-left: 2rem;
+  float: left;
+}
+h1 {
+  text-align: center;
+}
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+form button {
+  background: lightgrey;
+  padding: 0.7em;
+  border: 0;
+  width: 100%;
+}
+form button:hover {
+  background: #8eb5e9;
+  color: white;
+}
+
+label {
+  text-align: left;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+input {
+  width: 96%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+input:focus {
+  outline: 3px solid green;
+}
+select {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+select:focus {
+  outline: 3px solid green;
+}
+.login {
+  background: #3389fa;
+}
+
+/* STYLE ATURAN */
+#aturan {
+  clear: both;
+  padding-top: 20px;
+}
+#aturan h1 {
+  text-align: center;
+}
+#aturan h2 {
+  margin-left: 10px;
+}
+table {
+  width: 98%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+p {
+  margin-left: 10px;
+}
